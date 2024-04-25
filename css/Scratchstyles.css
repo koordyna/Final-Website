@@ -124,3 +124,20 @@ body::before {
 .image-wrapperright img {
     width: 100%;
 }
+
+/* Center the link at the bottom of the page */
+.link-container {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    padding: 20px; /* Adjust as needed */
+  }
+  
+  /* Style for the link */
+  .link {
+    text-decoration: none;
+    color: gray); /* Or any color you prefer */
+  }
